@@ -1,0 +1,23 @@
+1. Pré-Sprint / Planejamento (Iteration 0)
+Antes do início do desenvolvimento, o teste ágil atua no planejamento do que será desenvolvido: Definição de Critérios de Aceitação, Refinamento do Backlog, Planejamento de Testes
+2.Durante a Sprint (Desenvolvimento)
+O teste acontece em paralelo com a codificação, promovendo feedback rápido, Testes TDD (Test-Driven Development), Automação de Testes, Testes Exploratórios, Daily Scrums
+3. Integração Contínua
+Testes de Regressão Automatizados
+4. Fim da Sprint (Revisão e Aceitação)
+Teste de Aceitação do Usuário (UAT), Revisão (Demo/Retrospectiva)
+5. Pós-Sprint / Produção
+Monitoramento de Produção, Testes Exploratórios em Produção
+
+
+
+
+Quando o Code Review FAZ SENTIDO (3 Motivos)
+Transferência de Conhecimento e Mentoria: O review é a melhor forma de compartilhar o contexto do sistema, padrões de projeto e ensinar boas práticas a desenvolvedores mais juniores.
+Identificação Precoce de Bugs e Segurança: Revisar o código antes de integrar ajuda a encontrar falhas de lógica, vulnerabilidades de segurança e falhas de design, o que é muito mais barato do que corrigi-las em produção.
+Consistência e Qualidade da Base de Código (Codebase): Garante que o projeto siga os mesmos padrões de codificação, evitando que o código se torne um "monstro" desorganizado, o que facilita a manutenção futura. 
+
+Quando o Code Review DEIXA DE FAZER SENTIDO (3 Motivos)
+Quando foca apenas em Estilo/Sintaxe (Revisão Robótica): Se o revisor passa o tempo apenas pedindo para mudar ponto e vírgula, espaços ou nomes de variáveis (que ferramentas automáticas como Linters/AI poderiam corrigir), o review vira burocracia e desperdício de tempo.
+Quando gera gargalos de Produtividade (Code Review em "Vermelho"): Se os Pull Requests (PRs) ficam dias esperando revisão, impedindo a integração contínua e travando o fluxo da equipe (red queue), o custo de oportunidade é maior que o benefício.
+Quando é usado para Microgerenciamento ou Ego: Quando revisores usam o espaço para impor preferências pessoais ("eu não faria assim") em vez de focar na funcionalidade ou qualidade, gerando atrito na equipe sem agregar valor real ao produto. 
