@@ -1,3 +1,8 @@
+características:
+Testes Contínuos e Antecipados, Colaboração de Todo o Time (Whole Team Approach), Feedback Rápido e Constante, Automatização Elevada, Abordagem Iterativa e Incremental, Flexibilidade a Mudanças, Menos Documentação, Mais Ação
+
+Momentos em que os Testes ágil aparece no desenvolvimento de um software:
+
 1. Pré-Sprint / Planejamento (Iteration 0)
 Antes do início do desenvolvimento, o teste ágil atua no planejamento do que será desenvolvido: Definição de Critérios de Aceitação, Refinamento do Backlog, Planejamento de Testes
 2.Durante a Sprint (Desenvolvimento)
@@ -21,3 +26,9 @@ Quando o Code Review DEIXA DE FAZER SENTIDO (3 Motivos)
 Quando foca apenas em Estilo/Sintaxe (Revisão Robótica): Se o revisor passa o tempo apenas pedindo para mudar ponto e vírgula, espaços ou nomes de variáveis (que ferramentas automáticas como Linters/AI poderiam corrigir), o review vira burocracia e desperdício de tempo.
 Quando gera gargalos de Produtividade (Code Review em "Vermelho"): Se os Pull Requests (PRs) ficam dias esperando revisão, impedindo a integração contínua e travando o fluxo da equipe (red queue), o custo de oportunidade é maior que o benefício.
 Quando é usado para Microgerenciamento ou Ego: Quando revisores usam o espaço para impor preferências pessoais ("eu não faria assim") em vez de focar na funcionalidade ou qualidade, gerando atrito na equipe sem agregar valor real ao produto. 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
