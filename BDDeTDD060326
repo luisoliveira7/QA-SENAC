@@ -1,0 +1,147 @@
+BDD – Sistema de Usuários (Tema Spotify)
+Funcionalidade: Cadastro de Usuário
+
+Como um visitante do Spotify
+Eu quero criar uma conta
+Para acessar playlists e recursos da plataforma
+------------------------------------------------------
+Funcionalidade: Cadastro de Usuário
+
+Dado que estou na página de cadastro do Spotify
+Quando eu informo nome "João Silva"
+E informo email "joao@email.com"
+E informo senha "123456"
+E clico no botão "Criar conta"
+Então o sistema deve cadastrar o usuário
+E exibir a mensagem "Conta criada com sucesso"
+E redirecionar para a página inicial do Spotify
+
+---------------------------------------------------
+Funcionalidade: Login de Usuário
+
+Dado que existe um usuário cadastrado com email "luis@email.com" e senha "123456"
+Quando informo email "luis@email.com"
+E informo senha "123456"
+E clico em "Entrar"
+Então o sistema deve autenticar o usuário
+E redirecionar para a página inicial do Spotify
+E exibir o nome do usuário no perfil
+
+------------------------------------------------------------------------------
+Funcionalidade: Visualizar Perfil (Read)
+
+Dado que estou logado no sistema
+Quando acesso a página "Meu Perfil"
+Então o sistema deve exibir:
+E nome do usuário
+E email cadastrado
+E data de criação da conta
+
+--------------------------------------------------------------------------------
+Funcionalidade: Atualizar Dados do Usuário (Update)
+
+Dado que estou logado no Spotify
+E estou na página "Editar Perfil"
+Quando altero o nome para "João da Silva"
+E clico em "Salvar"
+Quando o sistema deve atualizar os dados do usuário
+E exibir a mensagem "Perfil atualizado com sucesso"
+
+--------------------------------------------------------------------------------
+Funcionalidade: Exclusão de Conta (Delete)
+
+Dado que estou logado no sistema
+E estou na página "Configurações da Conta"
+Quando clico em "Excluir Conta"
+E confirmo a exclusão
+Quando o sistema deve remover o usuário do banco de dados
+E encerrar a sessão
+E redirecionar para a página inicial
+
+----------------------------------------------------------------------------------
+
+***7 Princípios de teste:***
+
+
+Primeiro:
+O teste mostra a presença de defeitos e não a sua ausência
+O teste reduz a probabilidade de defeitos não descobertos
+permanecerem no software, mas, mesmo se nenhum defeito for
+encontrado, o teste não é uma prova de correção.
+
+--------------------------------------------------------------------------------
+Segundo:
+
+Testes exaustivos são impossíveis
+Testar tudo (todas as combinações de entradas e précondições) não é viável, exceto em casos triviais. Em vez
+de tentar testar exaustivamente, a análise de risco, as
+técnicas de teste e as prioridades devem ser usadas para
+concentrar os esforços de teste.
+
+----------------------------------------------------------------------------------------------------------------
+
+Terceiro:
+
+O teste inicial economiza tempo e dinheiro
+Para encontrar antecipadamente os defeitos, as
+atividades de teste estático e dinâmico devem ser
+iniciadas o mais cedo possível no ciclo de vida de
+desenvolvimento de software. O teste inicial é por vezes
+referido como shift left. O teste no início do ciclo de vida
+de desenvolvimento de software ajuda a reduzir ou
+eliminar alterações dispendiosas.
+
+---------------------------------------------------------------------------------------------------------
+
+Quarto:
+
+Defeitos se agrupam
+Um pequeno número de módulos geralmente contém a
+maioria dos defeitos descobertos durante o teste de
+pré-lançamento ou é responsável pela maioria das
+falhas operacionais. Agrupamento de defeitos previstos
+e os agrupamentos de defeitos observados reais em
+teste ou produção, são uma entrada importante em
+uma análise de risco usada para focar o esforço de teste
+(como mencionado no princípio 2).
+
+-------------------------------------------------------------------------
+
+Quinto:
+
+Cuidado com o paradoxo do pesticida
+Se os mesmos testes forem repetidos várias vezes, esses
+testes não encontrarão novos defeitos. Para detectar novos
+defeitos, os testes existentes e os dados de teste podem
+precisar ser alterados e novos testes precisam ser gravados.
+(Testes não são mais eficazes em encontrar defeitos, assim
+como pesticidas não são mais eficazes em matar insetos
+depois de um tempo.).
+
+------------------------------------------------------------------------------
+
+Sexto:
+
+O teste depende do contexto
+O teste é feito de forma diferente em diferentes
+contextos. Por exemplo, o software de controle
+industrial de segurança crítica é testado de forma
+diferente de um aplicativo móvel de comércio
+eletrônico. Como outro exemplo, o teste em um projeto
+ágil é feito de forma diferente do que o teste em um
+projeto de ciclo de vida sequencial.
+
+----------------------------------------------------------------------------
+
+Sétimo:
+
+Ausência de erros é uma ilusão
+Além disso, é uma ilusão esperar que apenas encontrar e corrigir
+um grande número de defeitos assegure o sucesso de um sistema.
+Por exemplo, testar exaustivamente todos os requisitos
+especificados e corrigir todos os defeitos encontrados ainda pode
+produzir um sistema difícil de usar, que não atenda às necessidades
+e expectativas dos usuários ou que seja inferior em comparação
+com outros sistemas concorrentes.
+
+-------------------------------------------------------------------------------
