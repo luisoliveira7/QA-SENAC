@@ -1,0 +1,107 @@
+## Níveis de Teste
+
+Teste de Componentes (Unidade)
+Testa partes pequenas do sistema separadamente
+Foco: componentes individuais
+Defeitos comuns:
+Funcionalidade incorreta
+Problemas no fluxo de dados
+Código/lógica errados
+
+Teste de Integração
+Testa a comunicação entre componentes
+Foco: interação entre partes
+Defeitos comuns:
+Dados incorretos ou faltando
+Problemas de sequência/tempo
+Incompatibilidade de interface
+Falhas de comunicação
+Suposições erradas sobre dados
+
+Teste de Sistema
+Testa o sistema completo
+Foco: funcionamento geral (ponta a ponta)
+Defeitos comuns:
+Cálculos errados
+Comportamento inesperado
+Fluxo de dados incorreto
+Falha em tarefas completas
+Problemas no ambiente real
+Não seguir documentação
+
+Teste de Aceite
+Testa se atende o usuário/negócio
+Tipos:
+Usuário (uso real)
+Operacional (simulação devops)
+Contratual/regulatório
+Alfa (em desenvolvimento)
+Beta (pós desenvolvimento)
+Defeitos comuns:
+Não atende requisitos
+Regras de negócio erradas
+Não cumpre contrato
+Problemas de desempenho ou segurança
+---------------------------------------------------------------------------------------------------
+
+## Tipos de Teste
+Funcional → verifica funções do sistema
+Não funcional → desempenho, segurança, usabilidade
+Caixa-branca → testa o código
+Relacionado à mudança → feito após alterações
+
+## Nota:
+Qualquer tipo pode ser aplicado em qualquer nível
+
+----------------------------------------------------------------------------------------------------------------
+
+## Técnicas de Teste
+Caixa-preta → Não olha o código
+
+Técnicas:
+Particionamento de equivalência
+Divide entradas em grupos
+Ex: abaixo, dentro e acima do limite
+Valor limite
+Testa extremos
+Ex: 1, 2, 99, 100
+Tabela de decisão
+Combina condições
+Ex: idade + renda
+Transição de estado
+Testa mudança de estados
+Ex: aquecendo, resfriando, neutro
+Caso de uso
+Testa cenários reais
+Ex: login correto/incorreto
+
+Caixa-branca
+Foca no código
+Cobertura de instruções
+Executar todas as linhas
+Cobertura de decisão
+Testar todas as condições (true/false)
+Valor da instrução + decisão
+Testar tudo (linhas + decisões)
+
+Baseadas na experiência
+Suposição de erro
+Testa onde acha que vai dar erro
+Teste exploratório
+Testa sem roteiro
+Checklist
+Segue lista de verificação
+---------------------------------------------------------------------------------------------------------------------------
+
+## Conceitos
+Erro → erro humano
+Defeito (bug) → problema no código
+Falha → comportamento errado do sistema
+------------------------------------------------------------------------------------------------------------------
+
+## Psicologia nos Testes
+Pessoas acham que o código está certo
+Dificuldade em aceitar erros
+Existe o viés de confirmação:
+Tendência de acreditar que está correto
+Testes trazem “más notícias”
