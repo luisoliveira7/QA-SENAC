@@ -1,0 +1,111 @@
+## Sobre a disciplina
+Qualidade e Teste de Software
+Professor: Renan Ponick
+--------------------------------------------------------
+## Background do professor
+Técnico em Informática (SENAI - 2015)
+ADS (SENAC - 2021)
+MBA em Cibersegurança (2023)
+Pós em Gestão de Pessoas (2023)
+Pós em Segurança Ofensiva (atual)
+Experiência:
+QA (Projuris, LINX)
+Desenvolvedor
+Coordenador de Software
+Professor
+--------------------------------------------------------------
+## Combinados da aula
+Tirar dúvidas sempre
+Respeitar todos
+Um fala, outro escuta
+Slides são material de consulta
+
+----------------------------------------------------------------
+## Indicadores (comportamento)
+Participação
+Criatividade
+Responsabilidade
+Trabalho em equipe
+Respeito e flexibilidade
+-------------------------------------------------------------------
+## Habilidades esperadas
+Entender qualidade de software
+Identificar testes
+Criar plano de testes
+Fazer testes unitários e de integração
+-------------------------------------------------------------------
+## O que é Qualidade
+Depende da percepção de cada pessoa
+--------------------------------------------------------------------
+## Qualidade de Software
+Software deve atender:
+Requisitos funcionais
+Requisitos não funcionais
+Deve ser:
+Confiável
+Eficiente
+Seguro
+Fácil de usar
+Fácil de manter
+-------------------------------------------------------------------------
+## Falta de qualidade
+Pode causar:
+Prejuízos financeiros
+Perda de dados
+Problemas para empresas e usuários
+--------------------------------------------------------------------------
+## Com qualidade
+Maior satisfação do usuário
+Fidelização
+Vantagem competitiva
+Mais clientes
+--------------------------------------------------------------------------
+## Benefícios internos
+Mais eficiência
+Automação de processos
+Menos erros
+Melhor colaboração
+--------------------------------------------------------------------------
+## Origem da qualidade de software
+Começou com foco em funcionamento correto
+--------------------------------------------------------------------------
+## História (Bug)
+1878: Thomas Edison → problema com inseto (origem do termo bug)
+1947: Primeiro bug em computador (Harvard Mark I)
+Inseto causava erro → registrado
+----------------------------------------------------------------------
+## Evolução dos testes
+1979:
+Livro The Art of Software Testing
+Marco inicial dos testes
+1980:
+Modelo cascata
+Primeiras ferramentas de teste
+1990:
+Ferramentas integradas (testes + gestão)
+1995:
+Automação de testes de performance (LoadRunner)
+2002:
+Criação da ALATS
+2006:
+ISTQB no Brasil (BSTQB)
+Certificação e materiais
+----------------------------------------------------------------------------
+## Atualidade
+Evolução constante
+
+Inclui:
+ISO 9000
+CMMI
+Metodologias ágeis
+Automação de testes
+DevOps
+IA e Machine Learning
+Segurança
+------------------------------------------------------------------------------
+## Importante
+QA não é só testar
+------------------------------------------------------------------------
+## Orientação
+Criar repositório no GitHub
+Guardar conteúdos da área
