@@ -1,0 +1,76 @@
+Cenário 1: Interrupção Temporária do Serviço devido a Manutenção Programada
+O serviço é temporariamente interrompido para realizar manutenção programada, afetando temporariamente a acessibilidade, mas sem danos permanentes.
+
+Probabilidade: D (Provável)
+Impacto: 2 (Tolerável)
+Matriz do Risco: 2D - Médio
+Testes utilizados: Teste de disponibilidade, Teste de recuperação
+Estratégia de mitigação: Planejar as manutenções para horários de menor uso, comunicar os usuários com antecedência e garantir que o sistema volte ao ar dentro do prazo previsto. Também é importante ter um processo de rollback caso algo dê errado durante a manutenção.
+Tipos de Risco:
+
+Operacional: A interrupção do serviço, mesmo que planejada, pode afetar usuários que dependem do sistema naquele momento.
+Negócio: Dependendo do horário e da duração, a indisponibilidade pode gerar insatisfação dos usuários e impactar a reputação do serviço.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Cenário 2: Vulnerabilidade de Segurança Descoberta em uma Dependência de Terceiros
+Uma vulnerabilidade crítica é descoberta em uma biblioteca de terceiros usada pelo aplicativo, permitindo ataques de hackers para acessar dados sensíveis dos usuários.
+
+Probabilidade: C (Possível)
+Impacto: 5 (Crítico)
+Matriz do Risco: 5C - Muito Alto
+Testes utilizados: Teste de segurança (Pentest), Análise de dependências (SCA)
+Estratégia de mitigação: Monitorar constantemente as dependências do projeto em busca de vulnerabilidades conhecidas, utilizando ferramentas como o Dependabot ou o npm audit. Assim que uma vulnerabilidade for identificada, atualizar ou substituir a biblioteca afetada o mais rápido possível.
+Tipos de Risco:
+
+Técnico: A biblioteca de terceiros possui uma falha que pode ser explorada, colocando em risco a segurança do sistema.
+Negócio: O vazamento de dados sensíveis dos usuários pode gerar multas, processos judiciais e danos à imagem da empresa.
+Operacional: Pode ser necessário tirar o sistema do ar para aplicar a correção, causando indisponibilidade.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Cenário 3: Erro de Interface do Usuário que Causa Confusão entre os Usuários
+Uma alteração na interface do usuário causa confusão entre os usuários, mas não afeta a funcionalidade básica do aplicativo.
+
+
+Probabilidade: C (Possível)
+Impacto: 2 (Tolerável)
+Matriz do Risco: 2C - Médio
+Testes utilizados: Teste de usabilidade, Teste funcional
+Estratégia de mitigação: Realizar testes de usabilidade antes de publicar alterações na interface, coletando feedback de usuários reais. Manter um padrão visual consistente e, quando necessário, comunicar as mudanças aos usuários com explicações claras.
+Tipos de Risco:
+
+Humano: O usuário pode interpretar errado elementos da interface, como botões e mensagens, levando a erros durante o uso.
+Negócio: A confusão na interface pode aumentar o número de chamados no suporte e reduzir a satisfação dos usuários com o produto.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Cenário 4: Falha em Processo de Backup de Dados
+Uma falha no processo de backup de dados resulta na perda de uma quantidade significativa de dados dos usuários.
+
+Probabilidade: B (Improvável)
+Impacto: 5 (Crítico)
+Matriz do Risco: 5B - Alto
+Testes utilizados: Teste de recuperação de dados, Teste operacional
+Estratégia de mitigação: Implementar monitoramento automático do processo de backup, com alertas em caso de falha. Realizar testes periódicos de restauração para garantir que os backups estão funcionando corretamente. Manter cópias em mais de um local para reduzir o risco de perda total.
+Tipos de Risco:
+
+Operacional: A falha no backup é um problema direto de infraestrutura e processos internos, que deveria ser detectado antes de causar perda de dados.
+Técnico: Pode haver falhas na configuração do processo de backup ou incompatibilidade com o ambiente.
+Negócio: A perda de dados dos usuários pode gerar problemas legais, especialmente considerando a LGPD, além de danos sérios à reputação da empresa.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Cenário 5: Ataque de Phishing aos Usuários do Aplicativo
+Usuários do aplicativo são alvo de ataques de phishing, onde criminosos se passam pelo serviço para roubar credenciais e dados financeiros.
+
+Probabilidade: D (Provável)
+Impacto: 4 (Grave)
+Matriz do Risco: 4D - Muito Alto
+Testes utilizados: Teste de segurança (Pentest), Teste de conscientização
+Estratégia de mitigação: Implementar autenticação multifator (MFA) para dificultar o acesso mesmo que as credenciais sejam comprometidas. Educar os usuários sobre como identificar tentativas de phishing e disponibilizar canais oficiais de comunicação para que possam verificar a autenticidade de mensagens recebidas.
+Tipos de Risco:
+
+Humano: O ataque explora a falta de atenção ou conhecimento do usuário, que pode clicar em links falsos e fornecer seus dados sem perceber.
+Negócio: Usuários que tiverem dados roubados podem responsabilizar a empresa, gerando processos e perda de confiança no serviço.
+Operacional: Dependendo da escala do ataque, pode ser necessário bloquear contas em massa e acionar times de resposta a incidentes.
