@@ -62,7 +62,7 @@ Negócio: A perda de dados dos usuários pode gerar problemas legais, especialme
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Cenário 5: Ataque de Phishing aos Usuários do Aplicativo
-Usuários do aplicativo são alvo de ataques de phishing, onde criminosos se passam pelo serviço para roubar credenciais e dados financeiros.
+O serviço é temporariamente interrompido para realizar manutenção programada, afetando temporariamente a acessibilidade, mas sem danos permanentes.
 
 Probabilidade: D (Provável)
 Impacto: 4 (Grave)
